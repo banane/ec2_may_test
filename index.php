@@ -1,10 +1,13 @@
+
+ 
+ 
 <head> 
-<meta property="og:title" content="Facebook Fallen Veteran's Memorial" /> 
-<meta property="og:description" content="Honor our fallen veterans by writing a name on the memorial or by laying a wreath." /> 
-<meta property="og:site_name" content="Fallen Veterans Memorial" /> 
-<meta property="og:image" content="http://174.143.153.39/wreath/new/wreath.png" /> 
+<meta property="og:title" content="Buick - NCAA Team Badges" /> 
+<meta property="og:description" content="Take notice, NCAA fans!  Choose your team and show your spirit by posting a fan badge!" /> 
+<meta property="og:site_name" content="Buick - NCAA Team Badges" /> 
+<meta property="og:image" content="http://174.143.153.39/buick/90x90_BUICK_NCAA.jpg" /> 
 <meta property="og:type" content="website" /> 
-<meta property="og:url" content="http://apps.facebook.com/memorialday/" /> 
+<meta property="og:url" content="http://apps.facebook.com/ncaabadges/" /> 
 </head> 
  
 <!-- 
@@ -19,7 +22,7 @@ body {
 }
  
 .wall {
-  background-image: url("img/felt-background.png");
+  background-image: url("http://momentusmedia.com/publisher/static/img/offer/felt-background.png");
   width:750px;
   height:500px;
   overflow-y:scroll;
@@ -30,7 +33,7 @@ body {
 }
 
 .bottom {
-  background-image: url("bottom.png");
+  background-image: url("http://174.143.153.39/wreath/new/bottom.png");
   width:720px;
   height: 199px;
   margin-top:-85px;
@@ -55,8 +58,8 @@ Javascript
 --> 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
 <script> 
-var FB_APP_ID = '217830491579543';
-var FB_APP_URL = 'http://apps.facebook.com/memorialdaytwo/';
+var FB_APP_ID = '210860405620661';
+var FB_APP_URL = 'http://apps.facebook.com/memorialday/';
 
 $(document).ready(function(){
 
@@ -219,7 +222,7 @@ Facebook stuff
 <div id="fb-root"></div> 
 <script> 
   window.fbAsyncInit = function() {
-    FB.init({appId: '217830491579543', status: true, cookie: true,
+    FB.init({appId: '210860405620661', status: true, cookie: true,
              xfbml: true})
     window.setTimeout(function() {
       FB.Canvas.setAutoResize();
